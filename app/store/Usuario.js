@@ -26,6 +26,8 @@ Ext.define('StackOverFlow_es.store.Usuario', {
 
     pageSize: 100,
 
+    autoLoad: true,
+
     proxy: {
         type: 'ajax',
         url: 'https://api.stackexchange.com/2.2/users',

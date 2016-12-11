@@ -15,7 +15,7 @@ Ext.define('StackOverFlow_es.view.main.List', {
         type: 'usuario'
     },
 
-    autoLoad: true,
+    //autoLoad: true,
 
     columns: [
         {
@@ -26,7 +26,7 @@ Ext.define('StackOverFlow_es.view.main.List', {
             align: 'left',
             width: 200,
             renderer: function(value, p, record){
-                return record.get('display_name') + ' (' + record.get('user_id') + ')';
+                return p.get('display_name') + ' (' + p.get('user_id') + ')';
             }
         },{
             text: 'Reputaci&oacute;n',
@@ -42,7 +42,7 @@ Ext.define('StackOverFlow_es.view.main.List', {
             dataIndex: 'creation_date',
             align: 'left',
             flex: 1,
-            renderer: Ext.util.Format.dateRenderer('d/m/Y'),
+            renderer: Ext.util.Format.dateRenderer('d/m/Y')
         },{
             text: 'Fecha &uacute;ltimo acceso',
             dataIndex: 'last_access_date',

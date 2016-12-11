@@ -15,7 +15,7 @@ Ext.define('StackOverFlow_es.view.main.List', {
         type: 'usuario'
     },
 
-    autoLoad: true,
+    //autoLoad: true,
 
     columns: [
         {
@@ -42,7 +42,7 @@ Ext.define('StackOverFlow_es.view.main.List', {
             dataIndex: 'creation_date',
             align: 'left',
             flex: 1,
-            renderer: Ext.util.Format.dateRenderer('d/m/Y'),
+            renderer: Ext.util.Format.dateRenderer('d/m/Y')
         },{
             text: 'Fecha &uacute;ltimo acceso',
             dataIndex: 'last_access_date',

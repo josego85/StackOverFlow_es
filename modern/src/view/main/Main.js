@@ -29,36 +29,9 @@ Ext.define('StackOverFlow_es.view.main.Main', {
 
     tabBarPosition: 'bottom',
 
-    // items: [
-    //     {
-    //         title: 'Home',
-    //         iconCls: 'x-fa fa-home',
-    //         layout: 'fit',
-    //         // The following grid shares a store with the classic version's grid as well!
-    //         items: [{
-    //             xtype: 'mainlist'
-    //         }]
-    //     },{
-    //         title: 'Users',
-    //         iconCls: 'x-fa fa-user',
-    //         bind: {
-    //             html: '{loremIpsum}'
-    //         }
-    //     },{
-    //         title: 'Groups',
-    //         iconCls: 'x-fa fa-users',
-    //         bind: {
-    //             html: '{loremIpsum}'
-    //         }
-    //     },{
-    //         title: 'Settings',
-    //         iconCls: 'x-fa fa-cog',
-    //         bind: {
-    //             html: '{loremIpsum}'
-    //         }
-    //     }
-    // ]
     items: [{
+        title: 'Usuarios',
+        iconCls: 'fa-user',
         xtype: 'mainlist'
     }]
 });

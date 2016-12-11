@@ -541,12 +541,19 @@
         "modern": {
             "toolkit": "modern",
 
-            "theme": "theme-classic",
+            "theme": "theme-triton",
 
             "sass": {
                 "generated": {
                     "var": "modern/sass/save.scss",
                     "src": "modern/sass/save"
+                }
+            },
+            "packager": "cordova",
+            "cordova": {
+                "config": {
+                    "platforms": "android",
+                    "id": "net.proyectosbeta.StackOverFlow_es"
                 }
             }
         }
