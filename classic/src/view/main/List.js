@@ -15,8 +15,6 @@ Ext.define('StackOverFlow_es.view.main.List', {
         type: 'usuario'
     },
 
-    //autoLoad: true,
-
     columns: [
         {
             xtype: 'rownumberer' // this is a column type

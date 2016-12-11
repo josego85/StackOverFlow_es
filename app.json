@@ -548,7 +548,8 @@
                     "var": "modern/sass/save.scss",
                     "src": "modern/sass/save"
                 }
-            },
+            }
+            ,
             "packager": "cordova",
             "cordova": {
                 "config": {
