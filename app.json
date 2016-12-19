@@ -549,14 +549,14 @@
                     "src": "modern/sass/save"
                 }
             }
-            ,
+            /*,
             "packager": "cordova",
             "cordova": {
                 "config": {
                     "platforms": "android",
                     "id": "net.proyectosbeta.StackOverFlow_es"
                 }
-            }
+            }*/
         }
     },
 

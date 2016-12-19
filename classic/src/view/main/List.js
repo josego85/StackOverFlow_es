@@ -60,8 +60,17 @@ Ext.define('StackOverFlow_es.view.main.List', {
 
     dockedItems: [{
         xtype: 'pagingtoolbar',
-        dock: 'bottom',
-        displayInfo: true
+        afterPageText: 'de {0}',
+        beforePageText: 'P\u00e1gina',
+        displayInfo: true,
+        displayMsg: 'Mostrando {0} - {1} de {2}',
+        emptyMsg: 'Sin datos para mostrar',
+        firstText: 'Primera P\u00e1gina',
+        lastText: '\u00daltima P\u00e1gina',
+        nextText: 'Siguiente P\u00e1gina',
+        prevText: 'P\u00e1gina Previa',
+        refreshText: 'Actualizar',
+        dock: 'bottom'
     }],
 
     listeners: {
